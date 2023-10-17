@@ -6,7 +6,7 @@ sys.path.append('/')
 
 app = Flask(__name__, template_folder='templates', static_folder='static')
 
-@route('/', methods=['GET'])
+@app.route('/', methods=['GET'])
 def index(self):
     return render_template('HTML.html')
 
