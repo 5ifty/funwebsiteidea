@@ -1,4 +1,4 @@
-from flask import Flask, render_template, route
+from flask import Flask, render_template
 import sys
 
 
