@@ -10,7 +10,7 @@ app = Flask(__name__, template_folder='templates', static_folder='static')
 def index(self):
     return render_template('HTML.html')
 
-Flasky.register(app,route_base = '/')
+Flask.register(app,route_base = '/')
 app.logger.removeHandler(default_handler)
 
 
