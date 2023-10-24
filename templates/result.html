@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic QR Code Generator</title>
+</head>
+<body>
+    <h1>Dynamic QR Code Generator</h1>
+    <form method="post" action="{{ url_for('generate_qr') }}">
+        <label for="link">Enter a link:</label>
+        <input type="text" id="link" name="link" required>
+        <input type="submit" value="Generate QR Code">
+    </form>    
+</body>
+</html>
